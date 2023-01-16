@@ -1,10 +1,10 @@
+<app-detalles></app-detalles>
 <div class="container">
   <div class="row">
     <h1>Lista</h1>
-    <div *ngFor="let ima of data " class="card" style="width: 20rem;">
+    <div *ngFor="let ima of data " class="card m-3" style="width: 18rem;">
       <img src="{{ima.image}}" alt="" class="card-img-top">
-      <p>{{ima.name}}</p>
-
+      <p class="text-center">{{ima.name}}</p>
     </div>
   </div>
 </div>

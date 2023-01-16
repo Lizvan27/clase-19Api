@@ -1,0 +1,8 @@
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+        <form class="d-flex" (ngSubmit)="buscar()"> 
+            <input class="form-control m-3" type="search" placeholder="Buscar Pokemon" [(ngModel)]="escribirPokemon" name="escribirPokemon">
+            <button class="btn btn-outline-success m-3" type="submit">Buscar</button>
+        </form>
+    </div>
+</nav>
